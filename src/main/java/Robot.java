@@ -43,6 +43,7 @@ public class Robot {
         for (Webcam webcam : webcams) {
             sb.append(webcam.toString());
         }
+
         for (EthernetDevice ethernetDevice : ethernetDevices) {
             sb.append(ethernetDevice.toString());
         }
@@ -60,5 +61,9 @@ public class Robot {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public String view() {
+        return "\"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\"" + this.toString();
     }
 }
