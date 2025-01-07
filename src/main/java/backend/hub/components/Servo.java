@@ -1,18 +1,19 @@
-package hub.components;
+package backend.hub.components;
 
-public class Digital {
+public class Servo {
 
     public enum Type {
-        DigitalDevice,
-        Led,
-        RevTouchSensor
+        ContinuousRotationServo,
+        RevBlinkinLedDriver,
+        RevSPARKMini,
+        Servo
     }
 
     private Type type;
     private String name;
     private int port = 0;
 
-    public Digital(Type type, String name, int port) {
+    public Servo(Type type, String name, int port) {
         this.type = type;
         this.name = name;
         this.port = port;

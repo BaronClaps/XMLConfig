@@ -1,9 +1,9 @@
-package hub.components;
+package backend.hub.components;
 
 public class I2C {
 
     public enum Type {
-        ControlHubImuBHI260AP, AdafruitColorSensor, AdafruitBNO055IMU, HuskyLens, ColorSensor, ModernRoboticsI2cCompassSensor, Gyro, IrSeekerV3, ModernRoboticsI2cRangeSensor, MaxSonarI2CXL, OctoQuadFTC, REV_VL53L0X_RANGE_SENSOR, RevExternalImu, RevColorSensorV3, LynxColorSensor, LynxEmbeddedIMU, SparkFunOTOS, QWIIC_LED_STICK, goBILDAPinpoint, KauaiLabsNavxMicro,
+        ControlHubImuBHI260AP, AdafruitColorSensor, AdafruitBNO055IMU, HuskyLens, ColorSensor, ModernRoboticsI2cCompassSensor, Gyro, IrSeekerV3, ModernRoboticsI2cRangeSensor, MaxSonarI2CXL, OctoQuadFTC, REV_VL53L0X_RANGE_SENSOR, RevExternalImu, RevColorSensorV3, LynxColorSensor, LynxEmbeddedIMU, SparkFunOTOS, QWIIC_LED_STICK, goBILDAPinpoint, KauaiLabsNavxMicro
     }
 
     private Type type;
