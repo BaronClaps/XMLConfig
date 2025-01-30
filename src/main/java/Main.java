@@ -1,7 +1,5 @@
-package backend;
-
-import backend.hub.*;
-import backend.hub.components.*;
+import hub.*;
+import hub.components.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class Main {
                 .addServo(new Servo(Servo.Type.ContinuousRotationServo, "edsaa", 3))
                 .addAnalog(new Analog(Analog.Type.OpticalDistanceSensor, "analodasg", 2))
                 .addDigital(new Digital(Digital.Type.RevTouchSensor, "aas", 1))
-                .addI2C(new I2C(I2C.Type.RevColorSensorV3, "aaa", 0, 1))
+                .addI2C(new I2C(I2C.Type.ColorSensor, "aaa", 0, 1))
                 .build();
 
         Robot robot = new RobotBuilder()

@@ -1,6 +1,4 @@
-package backend;
-
-import backend.hub.Hub;
+import hub.Hub;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,5 +1,3 @@
-package backend;
-
 public class Webcam {
 
     private String name;

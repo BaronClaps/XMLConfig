@@ -1,4 +1,4 @@
-package backend.hub.components;
+package hub.components;
 
 public class Analog {
 

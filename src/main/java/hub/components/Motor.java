@@ -1,4 +1,4 @@
-package backend.hub.components;
+package hub.components;
 
 public class Motor {
 
@@ -57,7 +57,7 @@ public class Motor {
         String typestring = type.toString();
 
         if(type == Type.UnspecificiedMotor)
-            typestring = "backend.hub.components.Motor";
+            typestring = "hub.components.Motor";
 
         if(type == Type.NeveRest3point7v1Gearmotor)
             typestring = "NeveRest3.7v1Gearmotor";
